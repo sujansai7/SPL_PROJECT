@@ -1,0 +1,108 @@
+.navbarMain{
+    padding-top: 1rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: #191919;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarList{
+    list-style:none;
+    margin-top: 16px;
+    display: flex;
+}
+
+.loginButton{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 2rem/* 32px */;
+    padding-right: 2rem/* 32px */;
+    padding-top: 0.3rem/* 8px */;
+    padding-bottom: 0.3rem/* 8px */;
+    background: linear-gradient( to right, #000000, #000000 ), linear-gradient(to right, #00ccd3, #371f76);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 9999px;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+    text-decoration: none;
+}
+
+.websiteLogo{
+    font-size: 2rem/* 36px */;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    
+    padding-top: 0.25rem/* 4px */;
+    padding-bottom: 0.25rem/* 4px */;
+}
+
+.navbarLink1{
+    text-decoration: none;
+    font-weight: bold;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size: 1.45rem/* 20px */;
+    line-height: 1.75rem/* 28px */;   
+}
+
+.navbarLink{
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 60px;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size: 1.45rem/* 20px */;
+    line-height: 1.75rem/* 28px */;   
+}
+
+.navbarLink:hover{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.navbarLink1:hover{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.titleText{
+    max-width: 800px;
+    font-size: 2.80rem;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.titleSub{
+    max-width: 800px;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    
+}
+
+.aboutText{
+    text-align: justify;
+    text-align-last: justify;
+}

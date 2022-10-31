@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script src="../JS/script.js"></script>
+</head>
+<body>
+    <section class="sectionOne">
+        <nav class="navbarMain">
+            <h1 class="websiteLogo">
+                <a href="index.html" class="mainLink">Roomie</a>
+            </h1>
+        </nav>
+        <div class="signinTitle">
+            <h1 class="signtitleText">Sign In</h1>
+        </div>
+        <div class="regContainer">
+            <div class="box">
+                <form class="regForm">
+                    <input
+                        type="email"
+                        class="regInput"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                    />
+                    <input
+                        type="password"
+                        class="regInput"
+                        id="password"
+                        name="password"
+                        placeholder="Password"
+                    />
+                    <button class="regButton" type="button" onClick=loginSubmit()>Sign In</button>
+                    <div>
+                        <h5 class="subtitleText">Don't have an account ? &ensp;</h5>
+                        <a href="register.html" class="loginSubmit"><u>Create One</u></a>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
