@@ -1,0 +1,173 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: #191919;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarMain{
+    padding-top: 1rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.websiteLogo{
+    font-size: 2rem/* 36px */;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    
+    padding-top: 0.25rem/* 4px */;
+    padding-bottom: 0.25rem/* 4px */;
+}
+
+.navbarList{
+    list-style:none;
+    margin-top: 16px;
+    display: flex;
+}
+
+.navbarLink1{
+    text-decoration: none;
+    font-weight: bold;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size: 1.45rem/* 20px */;
+    line-height: 1.75rem/* 28px */;   
+}
+
+.navbarLink{
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 60px;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size: 1.45rem/* 20px */;
+    line-height: 1.75rem/* 28px */;   
+}
+
+.navbarLink:hover{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.navbarLink1:hover{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.loginButton{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 2rem/* 32px */;
+    padding-right: 2rem/* 32px */;
+    padding-top: 0.3rem/* 8px */;
+    padding-bottom: 0.3rem/* 8px */;
+    background: linear-gradient( to right, #000000, #000000 ), linear-gradient(to right, #00ccd3, #371f76);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 9999px;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+    text-decoration: none;
+}
+
+.heading{
+    height: 100%;
+    padding: 1.4rem 2.5rem 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.titleTag{
+    max-width: 800px;
+    font-size: 2.80rem;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.titleSub{
+    max-width: 800px;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.dropDownList{
+    width: 180px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 2px solid rgb(8, 209, 235);
+    border-radius: 15px;
+    color: rgb(87, 8, 235);
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.calendar{
+    width: 180px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 2px solid rgb(8, 209, 235);
+    border-radius: 15px;
+    color: rgb(87, 8, 235);
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn1{
+    align-items: center;
+    padding-left: 1rem/* 32px */;
+    padding-right: 1rem/* 32px */;
+    padding-top: 0.3rem/* 8px */;
+    padding-bottom: 0.3rem/* 8px */;
+    background: linear-gradient( to right, #000000, #000000 ), linear-gradient(to right, #00ccd3, #371f76);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 9999px;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+    text-decoration: none;
+}
+
+.list1{
+    list-style: none;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}

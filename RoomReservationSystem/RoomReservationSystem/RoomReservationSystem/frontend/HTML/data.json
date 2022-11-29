@@ -1,0 +1,24 @@
+{
+  "Rooms": [
+    {
+      "roomName": "Room 1"
+    },
+    {
+      "roomName": "Room 2"
+    },
+    {
+      "roomName": "Room 3"
+    },
+    {
+      "roomName": "Room 4"
+    }
+  ],
+  "Slots": {
+    "Slot 1": "8:30AM - 9:30AM",
+    "Slot 2": "9:30AM - 10:30AM",
+    "Slot 3": "10:30AM - 11:30AM",
+    "Slot 4": "11:30AM - 12:30PM",
+    "Slot 5": "12:30PM - 1:30PM",
+    "Slot 6": "1:30PM - 2:30PM"
+  }
+}

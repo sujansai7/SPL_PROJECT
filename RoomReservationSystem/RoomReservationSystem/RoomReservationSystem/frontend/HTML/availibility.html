@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/availibility.css" />
+    <link
+      href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+    <script src="../JS/script.js"></script>
+  </head>
+  <body>
+    <nav class="navbarMain">
+      <h1 class="websiteLogo">Roomie</h1>
+      <a class="loginButton" href="login.html">Logout</a></li>
+    </nav>
+    <div class="heading">
+      <h1 class="titleTag">Rooms Availability</h1>
+      <p class="titleSub">Enter Date: <input class="calendar" type="text" id="datepicker" /></p>
+      <select class="dropDownList" name="room" id="room"></select>
+      <button class="btn1" type="button" id="submit" onclick="bookPartOne()">
+        See Availability
+      </button>
+      <a class="loginButton" href="booking.html">Go To Booking Page</a></li>
+      <ul class="list1" id="slots"></ul>
+    </div>
+    <script>
+      populateDropdown();
+    </script>
+  </body>
+</html>
